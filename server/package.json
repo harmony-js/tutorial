@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node -r esm src/index.js"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  },
+  "dependencies": {
+    "@harmonyjs/adapter-mongoose": "^1.0.0-rc2.16",
+    "@harmonyjs/controller-auth-jwt": "^1.0.0-rc2.6",
+    "@harmonyjs/persistence": "^2.0.0-rc2.49",
+    "@harmonyjs/server": "^2.0.0-rc2.15",
+    "mongoose": "^5.9.12"
+  }
+}
